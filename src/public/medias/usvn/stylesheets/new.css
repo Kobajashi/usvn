@@ -121,7 +121,7 @@ div.error, div.warning {
 	min-width: 950px;
 	margin-left: auto;
 	margin-right: auto;
-	background: transparent url('<?php echo $this->images_directory ?>/header_back.png') no-repeat 0px 0px;  
+	background: url('<?php echo $this->images_directory ?>/icc_dots.png') repeat fixed 0 0 #353B31;
 }
  
 #header #shaddow #header-wrapper {
@@ -131,8 +131,8 @@ div.error, div.warning {
 }
  
 #header #shaddow #header-wrapper #logo {
-	width: 320px;
-	height: 124px;
+	width: 100px;
+	height: 99px;
 	float: left;
 /*	background: transparent url('<?php echo $this->images_directory ?>/logo_trans.png') no-repeat 0px 0px;*/
 }
