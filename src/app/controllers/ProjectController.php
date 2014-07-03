@@ -76,7 +76,8 @@ class ProjectController extends USVN_Controller
         array('label' => $shortName),
         array('label' => 'Index',    'url' => array('action' => '', 'project' => $project->name), 'route' => 'project'),
         array('label' => 'Timeline', 'url' => array('action' => 'timeline', 'project' => $project->name), 'route' => 'project'),
-        array('label' => 'Browser',  'url' => array('action' => 'browser', 'project' => $project->name), 'route' => 'project')
+        array('label' => 'Browser',  'url' => array('action' => 'browser', 'project' => $project->name), 'route' => 'project'),
+        array('label' => 'Deploy',  'url' => array('action' => 'deployment', 'project' => $project->name), 'route' => 'project')
     );
 	}
 
