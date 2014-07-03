@@ -42,7 +42,8 @@ class AdminadminController extends USVN_Controller
 		array('label' => 'Groups',        'route' => 'admin', 'url' => array('action' => '', 'controller' => 'group')),
 		array('label' => 'Projects',      'route' => 'admin', 'url' => array('action' => '', 'controller' => 'project')),
 		array('label' => 'Configuration', 'route' => 'admin', 'url' => array('action' => '', 'controller' => 'config')),
-		array('label' => 'System report', 'route' => 'admin', 'url' => array('action' => '', 'controller' => 'systemreport'))
+		array('label' => 'System report', 'route' => 'admin', 'url' => array('action' => '', 'controller' => 'systemreport')),
+		array('label' => 'Deployment Server', 'route' => 'admin', 'url' => array('action' => '', 'controller' => 'deploymentserver'))
 		);
 	}
 
