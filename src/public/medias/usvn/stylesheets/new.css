@@ -131,9 +131,11 @@ div.error, div.warning {
 }
  
 #header #shaddow #header-wrapper #logo {
-	width: 100px;
-	height: 99px;
 	float: left;
+	height: 99px;
+	margin-left: 187px;
+	margin-top: 12px;
+	width: 100px;
 /*	background: transparent url('<?php echo $this->images_directory ?>/logo_trans.png') no-repeat 0px 0px;*/
 }
  
