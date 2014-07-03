@@ -20,7 +20,7 @@
 
 require_once dirname(__FILE__) . DIRECTORY_SEPARATOR . 'AdminadminController.php';
 
-class DeploymentserverController extends AdminadminController
+class DeploymentserveradminController extends AdminadminController
 {
 	public function indexAction()
 	{
